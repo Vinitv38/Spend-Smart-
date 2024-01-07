@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Manager</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="popup.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>SPEND SMART</h1>
+        <h3>Your Personal Bank Manager</h3>
+        <h2>Balance : ₹<span id="total">0</span></h2>
+        <h2>Limit: ₹<span id="limit">0</span></h2>
+        
+        <input type="text" id="amount" placeholder="Enter amount">
+        <div class="button-container">
+
+    
+            <input type="submit" id="spendAmount" value="Deposit">
+            <input type="submit" id="withdraw" value="Withdraw">
+        <!-- <button id="submit">Spend</button> -->
+        </div>
+    </div>
+</body>
+</html>
